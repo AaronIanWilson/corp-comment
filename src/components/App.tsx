@@ -1,5 +1,4 @@
 import Container from "./layout/Container";
-import Footer from "./layout/Footer";
 import HashtagList from "./hashtag/HashtagList";
 import { useEffect } from "react";
 import { useFeedBackItemsStore } from "../stores/feedbackItemsStore";
@@ -15,8 +14,6 @@ function App() {
 
   return (
     <div className="app">
-      <Footer />
-
       <Container />
 
       <HashtagList />
